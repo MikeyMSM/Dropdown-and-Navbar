@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dropandnav.css">
+    <script src="dropandnav.js" defer></script>
+    <title>Document</title>
+</head>
+<body onload="loadNavbar()">
+        <div class="container">
+            <div id="navbar-container"></div>
+                <!--navbar.html is here or u can just create new file-->
+                 <div class="main">
+                    <form>
+                        <input type="text" id = "first-name" name="first-name" placeholder="First Name" required>
+                        <input type="text" id = "middle-name" name="middle-name" placeholder="Middle Name" required>
+                        <input type="text" id = "last-name" name="last-name" placeholder="Last Name" required>
+                        <select name="job-description" id="job-description" required>
+                            <option value="">Select a job description</option>
+                                <option value="1">Elect. Engineer</option>
+                                <option value="2">Programmer</option>
+                                <option value="3">Systems Analyst</option>
+                                <option value="4">Applications Designer</option>
+                                <option value="5">General Support</option>
+                                <option value="6">DSS Analyst</option>
+                                <option value="7">Database Designer</option>
+                                <option value="8">Clerical Support</option>
+                        </select>
+                        <button>Submit</button>
+                        <button>Clear Form</button>
+                    </form>
+                </div>
+                 <div class="footer">&copy; 2024 Cyncia Matsika 💖</div>
+        </div>
+</body>
+</html>
